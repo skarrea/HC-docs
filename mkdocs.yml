@@ -21,3 +21,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+nav:
+  - Home: index.md
+  - On-boarding: on-boarding.md
+  - Off-boarding: off-boarding.md
