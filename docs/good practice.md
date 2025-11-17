@@ -177,3 +177,25 @@ repo-name/
   ├─ .gitignore       # Files/folders to exclude
   └─ README.md
 ```
+
+## Using Large Language Models (LLMs) and Chatbots
+
+#### Keep All Sensitive Information Inside the Cloud
+
+- Do **not** paste patient data, filenames containing identifiers, project paths, or other sensitive information into external chatbots (e.g., ChatGPT).
+
+- Only share **generic** code fragments or simplified examples when seeking help.
+
+- For tasks involving real data or sensitive logic, work entirely **within the cloud workbench**.
+
+#### Use LLMs as Assistants, Not Authorities
+
+- Validate all model-generated code before use.
+
+- Review logic, imports, file paths, and assumptions.
+
+- Treat LLM responses as suggestions that require scientific and technical interpretation.
+
+### Using Copilot in Secure Environments
+
+- Don **NOT** use Copilot through tools (VS Code, JetBrains, etc.) **inside the cloud**.
