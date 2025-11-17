@@ -129,7 +129,7 @@ GitHub provides a secure and structured way to collaborate on code, notebooks, d
 
 - Avoid committing large data files (use `.gitignore` for this).
 
-#### Branch-Based Workflow
+### Branch-Based Workflow
 
 - Create a new branch for each feature, analysis, or task:
 
@@ -137,7 +137,7 @@ GitHub provides a secure and structured way to collaborate on code, notebooks, d
 
 - In case of collaboration, open a Pull Request to merge changes and request review from team members.
 
-#### Documentation in the Repository
+### Documentation in the Repository
 
 - Include a `README.md` explaining:
 
@@ -149,7 +149,7 @@ GitHub provides a secure and structured way to collaborate on code, notebooks, d
 
 - Maintain additional documentation in `/docs` if needed.
 
-#### Avoid Storing Data in GitHub
+### Avoid Storing Data in GitHub
 
 - Do **not** upload raw or sensitive data.
 
@@ -163,7 +163,7 @@ GitHub provides a secure and structured way to collaborate on code, notebooks, d
 
   - Example dummy datasets (if allowed).
 
-#### Repository Structure
+### Repository Structure
 
 Have an organized, clear structure, such as:
 
@@ -180,7 +180,7 @@ repo-name/
 
 ## Using Large Language Models (LLMs) and Chatbots
 
-#### Keep All Sensitive Information Inside the Cloud
+### Keep All Sensitive Information Inside the Cloud
 
 - Do **not** paste patient data, filenames containing identifiers, project paths, or other sensitive information into external chatbots (e.g., ChatGPT).
 
@@ -188,7 +188,7 @@ repo-name/
 
 - For tasks involving real data or sensitive logic, work entirely **within the cloud workbench**.
 
-#### Use LLMs as Assistants, Not Authorities
+### Use LLMs as Assistants, Not Authorities
 
 - Validate all model-generated code before use.
 
