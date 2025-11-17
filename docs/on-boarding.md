@@ -2,23 +2,17 @@
 
 ## Overview
 
-### Purpose
+**Purpose:** Describe the steps and responsibilities required to onboard new users to the Hunt Cloud environment.
 
-Describe the steps and responsibilities required to onboard new users to the Hunt Cloud environment.
+**Scope:** This guide covers initial introductions, account setup, cloud access, project organization.
 
-### Scope
-
-This guide covers initial introductions, account setup, cloud access, project organization.
-
-### Audience
-
-Supervisors, lab leaders, lab coordinators, and new users.
+**Audience:** Supervisors, lab leaders, lab coordinators, and new users.
 
 ### Responsibilities
 
 - **Supervisor / Lab leader:** ensure the new user is introduced to this document, and assign a mentor _(if the supervisor is not capable of being the mentor)_.
 
-  > By default the mentor should be the supervisor.
+    > By default the mentor should be the supervisor.
 
 - **Lab leader:** approve the new user data access.
 
@@ -52,9 +46,8 @@ Supervisors, lab leaders, lab coordinators, and new users.
 
 7. Explain how to use workbench.
 
-   > Clarify that the storage is differ on workbench from the main home lab.
-
-   > Clarify that is the main way to access the cloud.
+    > Clarify that the storage is differ on workbench from the main home lab. <br>
+    > Clarify that is the main way to access the cloud.
 
 8. Introduce other cloud access options (eg. ssh terminal, VS Code, MobaXterm).
 
@@ -89,52 +82,52 @@ Supervisors, lab leaders, lab coordinators, and new users.
 2. Create a user folder  
    Path: `/mnt/work/users/username`
 
-   - This is your user personal folder. You can organize it as you wish.
+    - This is your user personal folder. You can organize it as you wish.
 
 3. Project folder organization
 
-   - Maintain this organization and don't change it.
+    - Maintain this organization and don't change it.
 
-   - Enforce good data practices.
+    - Enforce good data practices.
 
-   - Learn the difference between Linux symbolic links vs copies.
+    - Learn the difference between Linux symbolic links vs copies.
 
 4. Cloud privacy
 
-   - Know which data you can and can't access.
+    - Know which data you can and can't access.
 
-   - Learn how to restrict others from accessing your folders _if deemed necessary_.
+    - Learn how to restrict others from accessing your folders _if deemed necessary_.
 
 5. Compute nodes and user accounts
 
-   > **This should be guided and explained by the lab coordinator**
+    > **This should be guided and explained by the lab coordinator**
 
-   - Use only if you will need to use GPUs or non-managed machines.
+    - Use only if you will need to use GPUs or non-managed machines.
 
-   - Ask the lab coordinator to create you a user on the node.
+    - Ask the lab coordinator to create you a user on the node.
 
-     > [NOTE] Your username at the node shall be the same of the home lab's.
+          > [NOTE] Your username at the node shall be the same of the home lab's.
 
-   - Ask for explanation of the differences between GPU nodes and the home instance.
+    - Ask for explanation of the differences between GPU nodes and the home instance.
 
-   - Ask for explanation of the data transfer between GPU nodes and home instance.
+    - Ask for explanation of the data transfer between GPU nodes and home instance.
 
-   - If there is a need for it, ask the lab coordinator to grant you **sudo** access.
+    - If there is a need for it, ask the lab coordinator to grant you **sudo** access.
 
-     > [NOTE] You will not be grant sudo access automatically.
+          > [NOTE] You will not be granted sudo access automatically.
 
-   - Setup your requirements on the node:
+    - Setup your requirements on the node:
 
-     - Install user-specific mamba.
+      - Install user-specific mamba.
 
-     - Install any other software you may need (e.g. itk-snap, MATLAB,..etc) also user-specific.
+      - Install any other software you may need (e.g. itk-snap, MATLAB,..etc) also user-specific.
 
-   - Ask the lab coordinator if is Docker already installed on the node machine.
+    - Ask the lab coordinator if is Docker already installed on the node machine.
 
-     > [NOTE] Docker shall be installed system-wide and users shall be added to the docker group.
+          > [NOTE] Docker shall be installed system-wide and users shall be added to the docker group.
 
 6. Data transfer policy
 
-   - You **MUST read** the Data Treatment section on this internal wiki.
+    - You **MUST read** the Data Treatment section on this internal wiki.
 
-   - Never download data without **explicit written permission from Lab leader**, except for material allowed for publications.
+    - Never download data without **explicit written permission from Lab leader**, except for material allowed for publications.
