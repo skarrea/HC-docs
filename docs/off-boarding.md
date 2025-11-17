@@ -6,25 +6,21 @@
 
 Describe the steps and responsibilities required to off-board a user from the Hunt Cloud environment.
 
-### Scope
+***Scope:*** This guide covers files cleaning, archiving, transferring access right.
 
-This guide covers files cleaning, archiving, transferring access right.
+***Audience:*** Supervisors, lab leaders, lab coordinators, and leaving users.
 
-### Audience
-
-Supervisors, lab leaders, lab coordinators, and leaving users.
-
-### Responsibilities
+***Responsibilities:***
 
 - **Supervisor / Lab leader:** ensure the leaving user is introduced to this document, and assign a mentor _(if the supervisor is not capable of being the mentor)_.
 
-  > By default the mentor should be the supervisor.
+	> By default the mentor should be the supervisor.
 
 - **Lab leader:** make sure the mentor initiated the off-boarding process, approve access extension.
 
 - **Lab coordinator:** offer help, and get files access rights.
 
-  > Access right is important specifically for the finished projects/files to be archived.
+	> Access right is important specifically for the finished projects/files to be archived.
 
 - **Leaving user:** read, execute, and follow the procedure below.
 
@@ -48,15 +44,15 @@ Supervisors, lab leaders, lab coordinators, and leaving users.
 
    - **Finished projects**
 
-     > These are projects that you, and any collaborators, have fully completed. The work is finalized, publications or results have been produced, and no further development is expected. However, the data or outputs may still be needed later (e.g., datasets supporting a published paper or essential project code or files).
+	 > These are projects that you, and any collaborators, have fully completed. The work is finalized, publications or results have been produced, and no further development is expected. However, the data or outputs may still be needed later (e.g., datasets supporting a published paper or essential project code or files).
 
    - **Discontinued projects**
 
-     > These are projects that were started but will not be continued now or in the future, either by you or your collaborators. The work remains incomplete, and no follow-up activity is planned.
+	 > These are projects that were started but will not be continued now or in the future, either by you or your collaborators. The work remains incomplete, and no follow-up activity is planned.
 
    - **Ongoing projects**
 
-     > These are projects that are still in active progress. Work will continue after your departure, either by you (if applicable) or by other team members/collaborators.
+	 > These are projects that are still in active progress. Work will continue after your departure, either by you (if applicable) or by other team members/collaborators.
 
 3. For **Finished project** data:
 
@@ -74,7 +70,7 @@ Supervisors, lab leaders, lab coordinators, and leaving users.
 
    - Transfer the access rights of the project files to the lab coordinator.
 
-     > Contact lab coordinator to help doing this.
+	 > Contact lab coordinator to help doing this.
 
 4. For **Discontinued project** data:
 
@@ -90,7 +86,7 @@ Supervisors, lab leaders, lab coordinators, and leaving users.
 
    - Transfer the access rights for the project files to your collaborators, supervisor, or lab coordinator (In this order, or based on the arrangements you make).
 
-     > Contact lab coordinator to help doing this.
+	 > Contact lab coordinator to help doing this.
 
 6. If you have data or files on node labs:
 
