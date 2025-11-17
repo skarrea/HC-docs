@@ -106,4 +106,6 @@ Supervisors, lab leaders, lab coordinators, and leaving users.
 
 9. Remove any of your user-specific installed software.
 
-10. Notify the lab leader, lab coordinator, your supervisor, and your mentor that you conducted this off-boarding procedure.
+10. Ask your supervisor/mentor for the access extension, if needed.
+
+11. Notify the lab leader, lab coordinator, your supervisor, and your mentor that you conducted this off-boarding procedure.
