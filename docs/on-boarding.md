@@ -4,7 +4,7 @@
 
 ### Purpose
 
-Describe the steps and responsibilities required to onboard new users to the Hunt Cloud environment.
+Describe the steps and responsibilities required to on-board new users to the Hunt Cloud environment.
 
 ### Scope
 
