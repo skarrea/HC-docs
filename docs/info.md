@@ -49,6 +49,6 @@ The roles description can be found at: https://docs.hdc.ntnu.no/administer-scien
 | **Prostomics**       | prostomics      | May-Britt Tessem | may-britt.tessem@ntnu.no | Maximilian Wess      | maximilian.wess@ntnu.no     |
 | **Molecular breast** | molbreastlab    | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Guro F.Giskeødegård  | guro.giskeodegard@ntnu.no   |
 | **FLIP.AI**          | flipai          | Mattijs Elschot  | mattijs.elschot@ntnu.no  | N/A                  | N/A                         |
-| **180N-prostate**    | 180N-prostate   | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Ingerid S. Knudtsen  | ingerid.s.knudtsen@ntnu.no  |
-| **180N-braintumor**  | 180N-braintumor | Live Eikenes     | live.eikenes@ntnu.no     | Live Eikenes         | live.eikenes@ntnu.no        |
+| **180N-prostate**    | 180n-prostate   | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Ingerid S. Knudtsen  | ingerid.s.knudtsen@ntnu.no  |
+| **180N-braintumor**  | 180n-braintumor | Live Eikenes     | live.eikenes@ntnu.no     | Live Eikenes         | live.eikenes@ntnu.no        |
 | **Breast MRI**       | breastmri       | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Tone F. Bathen       | tone.f.bathen@ntnu.no       |
