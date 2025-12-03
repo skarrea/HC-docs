@@ -2,17 +2,9 @@
 
 ## Overview
 
-### Purpose
-
-Describe how you should to treat and deal with the data on the Hunt Cloud environment.
-
-### Scope
-
-This guide covers guidelines for data treatment and handling.
-
-### Audience
-
-All users.
+**Purpose:** Describe how you should to treat and deal with the data on the Hunt Cloud environment. <br>
+**Scope:** This guide covers guidelines for data treatment and handling.<br>
+**Audience:** All users.
 
 ## Core Principles
 
@@ -48,7 +40,7 @@ Data should follow a clear and consistent directory structure, typically separat
 
 - **Raw data** – read-only, original files.
 
-  > [NOTE] Raw data should be saved in the dedicated location under `/mnt/archive`.
+    > [NOTE] Raw data should be saved in the dedicated location under `/mnt/archive`.
 
 - **Processed data** – intermediate outputs.
 
@@ -56,7 +48,7 @@ Data should follow a clear and consistent directory structure, typically separat
 
 ### 5. Documentation and Traceability
 
-All projects should maintain documentation (e.g., ReadME file) covering:
+All projects should maintain documentation (e.g., README file) covering:
 
 - Data sources.
 

@@ -23,5 +23,8 @@ theme:
         name: Switch to system preference
 nav:
   - Home: index.md
+  - Info: info.md
   - On-boarding: on-boarding.md
   - Off-boarding: off-boarding.md
+  - Good practices: good-practice.md
+  - Data treatment: data-treatment.md

@@ -2,17 +2,9 @@
 
 ## Overview
 
-### Purpose
-
-Provide basic information on the Hunt Cloud environment.
-
-### Scope
-
-This guide covers labs, names, roles, contact details.
-
-### Audience
-
-All users.
+**Purpose:** Provide basic information on the Hunt Cloud environment. <br>
+**Scope:** This guide covers labs, names, roles, contact details. <br>
+**Intended audience:** All users.
 
 ## Data Space
 
@@ -26,7 +18,7 @@ All users.
 
 Below is a table with the data space roles details.
 
-The roles description can be found at: https://docs.hdc.ntnu.no/administer-science/roles#data-space-roles
+The roles description can be found in the [relevant article of the HUNT cloud documentation.](https://docs.hdc.ntnu.no/administer-science/roles#data-space-roles)
 
 | Role                 | Name                 | Email                       |
 | -------------------- | -------------------- | --------------------------- |
@@ -41,13 +33,13 @@ The roles description can be found at: https://docs.hdc.ntnu.no/administer-scien
 
 Below is a table with the data space labs and their details.
 
-The roles description can be found at: https://docs.hdc.ntnu.no/administer-science/roles#lab-roles
+The roles description can be found in the [relevant article of the HUNT cloud documentation.](https://docs.hdc.ntnu.no/administer-science/roles#lab-roles)
 
 | Lab Name             | Lab Tag        | Lab Leader Name  | Lab Leader Name Email    | Lab Coordinator Name | Lab Coordinator Email       |
 | -------------------- | -------------- | ---------------- | ------------------------ | -------------------- | --------------------------- |
-| **Digital Life Lab** | digitallifelab | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Bendik S. Abrahamse  | bendik.s.abrahamsen@ntnu.no |
+| **Digital Life Lab** | digitallifelab | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Bendik S. Abrahamsen  | bendik.s.abrahamsen@ntnu.no |
 | **Prostomics**       | prostomics     | May-Britt Tessem | may-britt.tessem@ntnu.no | Maximilian Wess      | maximilian.wess@ntnu.no     |
-| **Molecular breast** | molbreastlab   | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Guro F.Giskeødegård  | guro.giskeodegard@ntnu.no   |
+| **Molecular breast** | molbreastlab   | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Guro F. Giskeødegård  | guro.giskeodegard@ntnu.no   |
 | **FLIP.AI**          | flipai         | Mattijs Elschot  | mattijs.elschot@ntnu.no  | N/A                  | N/A                         |
 | **180N-prostate**    | 180n-prostate  | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Ingerid S. Knudtsen  | ingerid.s.knudtsen@ntnu.no  |
 | **Breast MRI**       | breastmri      | Tone F. Bathen   | tone.f.bathen@ntnu.no    | Tone F. Bathen       | tone.f.bathen@ntnu.no       |

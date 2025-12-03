@@ -2,17 +2,9 @@
 
 ## Overview
 
-### Purpose
-
-Describe the good practices users preferred to follow on the Hunt Cloud environment.
-
-### Scope
-
-This guide covers good practice recommendations for programming, structuring, data handling.
-
-### Audience
-
-All users.
+**Purpose:** Describe the good practices users preferred to follow on the Hunt Cloud environment.<br>
+**Scope:** This guide covers good practice recommendations for programming, structuring, data handling.<br>
+**Audience:** All users.
 
 ## Data Usage
 
@@ -20,9 +12,9 @@ All users.
 
 - Sensitive data **MUST NOT** be downloaded from the cloud.
 
-  > [NOTE] If deemed necessary to download sensitive data, you MUST have a written permission to do so from the Lab or Space leader.
+    > [NOTE] If deemed necessary to download sensitive data, you MUST have a written permission to do so from the Lab or Space leader.
 
-- Avoid copying none-sensitive data to personal machines, USB drives, or external cloud services. _Except if deemed necessary (e.g., for publication)_.
+- Avoid copying non-sensitive data to personal machines, USB drives, or external cloud services. _Except if deemed necessary (e.g., for publication)_.
 
 - If data was downloaded, delete it as soon as you don't need it locally anymore.
 
@@ -32,7 +24,7 @@ All users.
 
 - Don't make multiple copies of raw data.
 
-- Have a code to process the data automatically depending on the raw data, if possible.
+- Have code to process the data automatically depending on the raw data, if possible.
 
 - Don't keep multiple copies of the processed data.
 
@@ -42,23 +34,29 @@ All users.
 
 ## Data Structuring and Project Organization
 
-- Create a `ReadMe` file, describing the name and objectives of the project, the name of those who work on it, and the timeline (start date, estimated end date).
+- Create a `README` file, describing the name and objectives of the project, the name of those who work on it, and the timeline (start date, estimated end date).
 
 - Use a clear and predictable structure with clear folder names, such as:
 
-  ```text
+
+```text
   project-name/
   ├─ docs/           # Documentation, protocols, README files
   ├─ config/         # Config files (YAML/JSON) and environment files
-  ├─ data/
-  │   ├─ raw/        # Original, read-only input data
-  │   ├─ interim/    # Intermediate processed data
-  │   └─ processed/  # Final analysis-ready datasets
   ├─ notebooks/      # Jupyter/R notebooks
   ├─ src/            # Source code (modules, scripts)
   ├─ results/        # Figures, tables, model outputs
   └─ logs/           # Logs and run metadata
-  ```
+
+  project-data/
+   ├─ raw/        # Original, read-only input data
+   ├─ interim/    # Intermediate processed data
+   └─ processed/  # Final analysis-ready datasets
+```
+
+- We recommend storing the data separately from the code to reduces chances of:
+    - Accidental pushes to GitHub or similar version control services.
+    - Accidentally having data be in scope of AI agents (see [section on LLMs and agents](#using-large-language-models-llms-and-chatbots) below)
 
 ## Workbench Usage
 
@@ -79,30 +77,23 @@ All users.
 ### Version Control and Reproducibility
 
 - Use **Git** for version control of scripts and notebooks.
-
-  - Create meaningful branches (e.g., `feature/qc-pipeline`, `bugfix/mri-loader`).
-
-  - Write clear commit messages describing _what_ and _why_.
+    - Create meaningful branches (e.g., `feature/qc-pipeline`, `bugfix/mri-loader`).
+    - Write clear commit messages describing _what_ and _why_.
 
 - Store **configuration files** (e.g., `environment.yml`, `requirements.txt`, or `renv.lock`) to document software dependencies.
 
 - Prefer **notebooks for exploration** and **scripts/modules for pipelines**:
-
-  - Use notebooks for initial analysis and visualization.
-
-  - Move stable code into reusable functions and scripts.
+    - Use notebooks for initial analysis and visualization.
+    - Move stable code into reusable functions and scripts.
 
 ### Coding Style and Documentation
 
 - Follow a consistent coding style (e.g., **PEP 8** for Python).
 
 - Add short, clear **docstrings** and comments, especially for:
-
-  - Data loading functions.
-
-  - Pre-processing pipelines.
-
-  - Model training and evaluation scripts.
+    - Data loading functions.
+    - Pre-processing pipelines.
+    - Model training and evaluation scripts.
 
 - Log key steps and parameters (e.g., using simple logging libraries or structured text files).
 
@@ -110,12 +101,11 @@ All users.
 
 GitHub provides a secure and structured way to collaborate on code, notebooks, documentation, and workflows. It ensures version control, transparency, and reproducibility across all team members working in HUNT Cloud.
 
-### Use CIMORe Groupe Lab
+### Use CIMORe Group Lab
 
-- If the code or repo will be public or cited in publication, Locate your repo within
-  https://github.com/ntnu-mr-cancer
-
-  > [NOTE] if you don't have access to it, ask the CIMORe Group leader to point you towards who can add you to it.
+- If the code or repo will be public or cited in a publication, transfer ownership of the code to the [CIMORe GitHub account](https://github.com/ntnu-mr-cancer).
+	
+    > [NOTE] if you don't have access to it, ask the CIMORe Group leader to point you towards who can add you to it.
 
 - If the code or repo will be private and only meant for private or small group collaboration, it can be located on your private account or the CIMORe lab.
 
@@ -132,20 +122,16 @@ GitHub provides a secure and structured way to collaborate on code, notebooks, d
 ### Branch-Based Workflow
 
 - Create a new branch for each feature, analysis, or task:
-
-  - Example: `feature/qc-pipeline`, `analysis/mri-cleaning`, `fix/dicom-loader`
+    - Example: `feature/qc-pipeline`, `analysis/mri-cleaning`, `fix/dicom-loader`
 
 - In case of collaboration, open a Pull Request to merge changes and request review from team members.
 
 ### Documentation in the Repository
 
 - Include a `README.md` explaining:
-
-  - How to run the code
-
-  - Required dependencies
-
-  - Folder structure
+    - How to run the code
+    - Required dependencies
+    - Folder structure
 
 - Maintain additional documentation in `/docs` if needed.
 
@@ -156,12 +142,11 @@ GitHub provides a secure and structured way to collaborate on code, notebooks, d
 - Use symbolic references or documented file paths to shared cloud folders.
 
 - Store only:
+    - Code.
+    - Metadata templates.
+    - Example dummy datasets (if allowed).
 
-  - Code.
-
-  - Metadata templates.
-
-  - Example dummy datasets (if allowed).
+- Be very careful with notebooks as cell output is contained in the saved file.
 
 ### Repository Structure
 
@@ -170,7 +155,6 @@ Have an organized, clear structure, such as:
 ```text
 repo-name/
   ├─ src/             # Scripts and modules
-  ├─ notebooks/       # Jupyter notebooks
   ├─ config/          # Environment and configuration files
   ├─ docs/            # Documentation, SOPs, wiki files
   ├─ tests/           # Unit tests if applicable
@@ -198,4 +182,4 @@ repo-name/
 
 ### Using Copilot in Secure Environments
 
-- Don **NOT** use Copilot through tools (VS Code, JetBrains, etc.) **inside the cloud**.
+- Do **NOT** use Copilot through tools (VS Code, JetBrains, etc.) **inside the cloud**.
