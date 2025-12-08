@@ -27,4 +27,8 @@ nav:
   - On-boarding: on-boarding.md
   - Off-boarding: off-boarding.md
   - Good practices: good-practice.md
-  - Data treatment: data-treatment.md
+  - Working with data: data-treatment.md
+  - Data policies: data-policies.md
+markdown_extensions:
+  - admonition
+  - attr_list
